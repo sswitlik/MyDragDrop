@@ -1,11 +1,13 @@
 <div class="ui-g">
-  <div class="container ui-g-2">
-    <div *ngFor="let element of set" class="element">
+  <div class="ui-g-2 container">
+    <div *ngFor="let element of set"
+         class="element"
+         appMyDraggable>
       {{element.name}}
     </div>
   </div>
 
-  <div class="container ui-g-2">
+  <div class="ui-g-2 container">
 
   </div>
 </div>

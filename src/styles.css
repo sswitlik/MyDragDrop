@@ -9,6 +9,7 @@ body {
   border: 1px solid #53968e;
   min-height: calc(1em + 4px);
   margin: 1px;
+  padding: 5px !important;
 }
 
 .element {
